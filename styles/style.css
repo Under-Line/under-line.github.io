@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600&display=swap');
+* {
+    font-family: 'Cairo', sans-serif;
+}
 .logo {
     height: 70px;
 }
 
 .BT {
-    background-color: azure;
+    background-color: rgb(150, 150, 150);
     margin: 9px;
-    width: 100px;
+    width: 400px;
     text-align: center;
-    color: blue;
-    
+    color: rgb(196, 176, 0);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-left-style:outset;
+    border-left-color: rgb(204, 167, 0);
+    border-width: 30px;
 }
