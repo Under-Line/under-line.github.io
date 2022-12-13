@@ -2,20 +2,48 @@
 * {
     font-family: 'Cairo', sans-serif;
 }
+body { 
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
 .logo {
+    width: 70px;
+    height: 70px;
+    float: left;
+    align-items: center;
+    transition: 0.9s;
+}
+.logo:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+}
+.navbar {
+    padding: 12px;
+    background-color:rgb(41, 41, 41);
+    justify-content: space-between;
     height: 70px;
 }
-
-.BT {
-    background-color: rgb(150, 150, 150);
-    margin: 9px;
-    width: 400px;
-    text-align: center;
-    color: rgb(196, 176, 0);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-left-style:outset;
-    border-left-color: rgb(204, 167, 0);
-    border-width: 30px;
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
 }
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 12px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+li a:hover {
+    background-color: rgb(255, 255, 255);
+    color:black;
+    padding: 30px 12px;
+  }
