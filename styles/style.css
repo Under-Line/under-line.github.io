@@ -51,7 +51,28 @@ li a:hover {
     color:black;
     border-radius: 12px;
   }
+  .error {
+    display: none;
+    background-color: rgb(160, 160, 160);
+    text-align: center;
+    color: rgb(179, 0, 0);
+    border-radius: 20px;
+    width: 200px;
+    margin: 8px;
+    padding: 10px;
+    font-size: 14px;
+  }
+@media only screen and (max-width: 500px) {
+    ul {display: none;}
+  }
 
+  @media only screen and (max-width: 258px) {
+    .error {
+        display: block;
+    }
+    .About{ display: none;
+    }
+  }
 .About {
  background-image: linear-gradient(to top,#202020,#000000);
  color: white;
